@@ -1,0 +1,15 @@
+<?
+	session_start();
+	//if(isset($HTTP_SESSION_VARS['username']))
+	if(!isset($_SESSION['uname']))
+	{
+		header("location:index.php");
+		exit;
+	}
+	if(isset($_SESSION['uname']))
+	{
+		unset($_SESSION['uname']);
+		header("location:index.php?action=logout");
+		exit();
+	}
+?>

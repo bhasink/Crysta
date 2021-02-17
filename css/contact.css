@@ -1,0 +1,94 @@
+.contact-bg {
+    background: none;
+    height: 100px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.c-contact{
+    /*background: url(../img/bglc.svg) center no-repeat;*/
+    background-size: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.c-for-image-contact img{
+    width: 100%;
+}
+.c-for-u-box-contact{
+    padding: 3rem 0rem;
+}
+.sub-box-contact img{
+    width: 100%;
+}
+.c-sub-text-contact h5{
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: 600;
+    color: #894089;
+}
+.c-main-heading-contact h1{
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #894089;
+}
+.contact-main-page{
+    margin-top: -10rem;
+}
+.team-img{
+    padding: 2rem;
+}
+.c-main-sub-heading-contact p{
+    font-weight: 500;
+}
+.step-image-contact img{
+    width: 100%;
+}
+.main-title-contact h1{
+    text-align: left;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #a54993;
+    line-height: .9em
+}
+.page-index-contact__section-container-1{
+    position: relative;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.page-index-contact__description-1{
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.page-index-contact__description-2{
+    font-weight: 500;
+    padding-top: 2rem;
+}
+
+.contact-new {
+    background: url(../img/contact-bg.svg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.formBox-contact {
+    padding: 50px 50px 0px 50px;
+}
+
+@media screen and (max-width: 600px){
+    .step-image-contact {
+        padding: 2rem;
+        padding-left: 0em;
+    }
+    .step-image-contact img {width:100%;}
+    .main-title-contact h1{
+        font-size: 3rem;
+    }
+    .formBox-contact{
+        padding: 0rem;
+    }
+}
